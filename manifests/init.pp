@@ -40,7 +40,7 @@ define archive (
   $extension='tar.gz',
   $src_target='/usr/src',
   $allow_insecure=false,
-  $follow_redirects=false,
+  $follow_redirects=false
 ) {
 
   archive::download {"${name}.${extension}":

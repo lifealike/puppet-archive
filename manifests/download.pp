@@ -39,7 +39,7 @@ define archive::download (
   $timeout=120,
   $src_target='/usr/src',
   $allow_insecure=false,
-  $follow_redirects=false,
+  $follow_redirects=false
 ) {
 
   $insecure_arg = $allow_insecure ? {
